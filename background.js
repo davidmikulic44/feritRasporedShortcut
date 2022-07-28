@@ -29,6 +29,8 @@ if(marginDate>todayDate){
 }
 
 chrome.browserAction.onClicked.addListener(function(activeTab){
-  var newURL = "https://www.ferit.unios.hr/"+yyyy+"/studenti/raspored-nastave-i-ispita/"+today+"/"+codeString+"#raspored";
+  var newURL = "https://www.ferit.unios.hr/"+yyyy
+  +"/studenti/raspored-nastave-i-ispita/"+today+"/"
+  +codeString+"#raspored";
   chrome.tabs.create({ url: newURL });
 });

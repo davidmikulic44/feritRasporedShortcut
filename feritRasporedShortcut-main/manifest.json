@@ -1,0 +1,23 @@
+{
+    "manifest_version":2,
+    "name":"Ferit raspored",
+    "version":"1.0",
+    "description":"Moram kliknut previse puta da bi doso do rasporeda",
+    "author":"David Mikulic",
+    "icons":{
+        "128":"icon.png"
+    },
+
+    
+    "browser_action":{
+        "default_icon":"icon.png",
+        "default_title":"FERIT Raspored"
+    },
+
+    "options_page" : "options.html",
+
+    "background":{
+        "scripts":["background.js"]
+    },
+    "permissions":["tabs", "storage"]
+}

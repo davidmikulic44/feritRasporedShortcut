@@ -10,7 +10,6 @@ $(function(){
             chrome.storage.sync.set({'code':code}, function(){
                 console.log(code);
             })
-            
         } 
     });
     

@@ -1,6 +1,9 @@
 html {
     background: rgb(212,207,255);
     background: linear-gradient(345deg, rgba(212,207,255,1) 0%, rgba(255,255,255,1) 100%); 
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .zasto{
